@@ -1,10 +1,10 @@
 <!-- ====== About Section Start -->
-<section id="about" class="dark:bg-slate-800 pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
+<section id="about" class="overflow-hidden pt-20 pb-12 dark:bg-slate-800 lg:pt-[120px] lg:pb-[90px]">
     <div class="container">
         <div class="flex flex-wrap items-center justify-between -mx-4">
             <div class="w-full px-4 lg:w-6/12">
                 <div class="flex items-center -mx-3 sm:-mx-4">
-                    <div class="w-full px-3 xl:w-1/2 sm:px-4">
+                    <div class="w-full px-3 sm:px-4 xl:w-1/2">
                         <div class="py-3 sm:py-4">
                             <img src="{{ url('/img/zelda.jpg') }}" alt="" class="w-full rounded-2xl" />
                         </div>
@@ -12,7 +12,7 @@
                             <img src="{{ url('/img/images.jpg') }}" alt="" class="w-full rounded-2xl" />
                         </div>
                     </div>
-                    <div class="w-full px-3 xl:w-1/2 sm:px-4">
+                    <div class="w-full px-3 sm:px-4 xl:w-1/2">
                         <div class="relative z-10 my-4">
                             <img src="{{ url('/img/download.jpg') }}" alt="" class="w-full rounded-2xl" />
                             <x-about-dots></x-about-dots>
@@ -27,19 +27,19 @@
                             "The minners of today is the house of tomorrow"
                         </blockquote>
                     </span>
-                    <h2 class="mb-8 text-3xl font-bold sm:text-4xl dark:text-gray-200">
+                    <h2 class="mb-8 text-3xl font-bold dark:text-gray-200 sm:text-4xl">
                         About Me
                     </h2>
                     <p class="mb-8 text-base dark:text-gray-400">
-                        I have been working as a software developer/ DevOps-SysAdmin for 1+ years. <br />
-                        I've been working with <span class="font-bold text-amber-500">Laravel</span> and the <span
-                            class="font-bold text-amber-500">TALL Stack</span>. I love Docker, Reverse Proxies among
-                        other
-                        DevOps tools. <br />
+                        I have been working as a DevOpe and Software Developer for 1+ years. <br />
+                        <span class="font-bold text-amber-500">Laravel</span> and the <span
+                            class="font-bold text-amber-500">TALL Stack</span> are the tools I'm more comfortable with.
+                        I also love Docker, Kubernetes and Automation tools like Ansible just to name a few.
+                        Working as DevOps System Administration has been awesome and I'm learning every day. <br />
                     </p>
 
                     <x-button-link href="https://youtube.com/fanpero87" variant="red" target="_blank">
-                        View my channel
+                        View Youtube my channel
                     </x-button-link>
                 </div>
             </div>

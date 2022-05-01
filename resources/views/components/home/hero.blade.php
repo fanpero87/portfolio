@@ -1,31 +1,21 @@
 <!-- ====== Hero Section Start -->
-<div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-white dark:bg-slate-800">
+<div class="relative bg-white pt-[60px] pb-[110px] dark:bg-slate-800 lg:pt-[80px]">
     <div class="container">
         <div class="flex flex-wrap -mx-4">
             <div class="w-full px-4 lg:w-5/12">
                 <div class="hero-content">
                     <h1
-                        class="text-dark dark:text-gray-200 font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6">
-                        My Name is Fabio <br />
-                        I'm a <span class="rounded-md text-amber-600">Junior</span> FullStack Developer.
+                        class="text-dark mb-6 text-4xl font-bold leading-snug dark:text-gray-200 sm:text-[42px] lg:text-[40px] xl:text-[42px]">
+                        I'm a <span class="rounded-md text-amber-600">Junior</span> DevOps and FullStack web Developer
                     </h1>
-                    <p class="text-base mb-8 max-w-[520px]">
-                        So far with 1+ years of experience, Im just getting started in this world. <br />
-                        Here is my
-                        <a class="font-bold no-underline text-primary hover:underline underline-offset-2 decoration-2 decoration-primary"
-                            href="https://youtube.com/fanpero87" target="_blank">YouTube Channel</a>. <br>
+                    <p class="mb-8 max-w-[520px] text-base">
+                        I currently have 1+ years of experience so Im just getting started in this world.
                     </p>
-                    <ul class="flex flex-wrap items-center">
-                        <li>
-                            <x-button-link href="#portfolio" variant="primary" class="rounded-lg">
-                                My Projects
-                            </x-button-link>
-                        </li>
-                    </ul>
-                    <div class="pt-16 clients">
+
+                    <div class="pt-10 clients">
                         <h6 class="flex items-center mb-4 text-xs font-normal text-body-color dark:text-gray-300">
                             Follow me on social media
-                            <span class="w-8 h-[1px] bg-body-color inline-block ml-2"></span>
+                            <span class="bg-body-color ml-2 inline-block h-[1px] w-8"></span>
                         </h6>
                         <x-social-icons></x-social-icons>
                     </div>
@@ -33,7 +23,7 @@
             </div>
             <div class="hidden px-4 lg:block lg:w-1/12"></div>
             <div class="w-full px-4 lg:w-6/12">
-                <div class="lg:text-right lg:ml-auto">
+                <div class="lg:ml-auto lg:text-right">
                     <div class="relative z-10 inline-block pt-11 lg:pt-0">
                         <img src="{{ url('/img/photo.jpg') }}" alt="hero" class="max-w-full lg:ml-auto" />
                         <span class="absolute -left-8 -bottom-8 z-[-1]">

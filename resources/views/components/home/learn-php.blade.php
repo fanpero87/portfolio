@@ -1,19 +1,15 @@
 <x-call-to-action>
     <x-slot:title>
-        <h4 class="mb-2 text-base font-semibold text-white">
-            Check someone else PHP Developer Roadmap
-        </h4>
-        <h2 class=" text-white font-bold text-3xl sm:text-[38px] leading-tight mb-6 sm:mb-8 lg:mb-0 ">
-            Start Learning <br class="hidden xs:block" />
-            PHP For FREE
+
+        <h2 class="mb-6 text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
+            This site is a simple Laravel App <br class="hidden xs:block" />
         </h2>
+        <h4 class="mb-2 text-base font-semibold text-white">
+            Check out the repo for this project here
+        </h4>
         </x-slot>
-        <x-button-link href="https://github.com/thecodeholic/php-developer-roadmap" variant="dark"
-            class="w-auto mb-3 mr-3 text-center" target="_blank">
-            View other guy's Github Repo
-        </x-button-link>
-        <x-button-link href="https://youtu.be/fanpero87" variant="red" class="w-auto mb-3 mr-3 text-center"
+        <x-button-link href="https://github.com/fanpero87/portfolio" variant="dark" class="mx-auto text-center"
             target="_blank">
-            Watch my YouTube Channel
+            Github Repo
         </x-button-link>
 </x-call-to-action>

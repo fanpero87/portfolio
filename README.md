@@ -1,22 +1,24 @@
 # Laravel 9 Portfolio App
 
-This is a Laravel app cloned from this [repo](https://github.com/thecodeholic/laravel9-tailwind-portfolio)
+> **Initial Comment:**
+> This is a simple Laravel Application that works as my first attempt of doing a Portfolio page for myself.
 
-We are using:
+This Laravel app was clone from this [Github Repo](https://github.com/thecodeholic/laravel9-tailwind-portfolio)
+
+This project is using the following tools:
 
 - [TailwindCSS](https://tailwindcss.com)
 - [AlpineJS](https://alpinejs.dev)
 - [TailGrids](https://tailgrids.com)
 - [Google Fonts](https://fonts.google.com/specimen/Roboto+Mono?query=Roboto+mono)
 
-We used Laravel Sail to deploy the app.
-Just run the following to create a docker container running your Laravel app:
+I used Laravel Sail to deploy the app. It was as easy as to run the following:
 
 ```bash
 curl -s "https://laravel.build/laravel9-portfilio" | bash
 ```
 
-Once the process is done, we can access the project folder and start the app:
+This will create a docker container running the app. From here, you can access the project folder and start the app like this:
 
 ```bash
 cd laravel9-portfilio

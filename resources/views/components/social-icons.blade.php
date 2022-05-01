@@ -1,30 +1,42 @@
 <div {{ $attributes->merge(['class' => 'flex items-center']) }}>
-    <a href="#" target="_blank"
-        class="flex items-center justify-center w-10 h-10 mr-3 border-2 rounded-full border-dark dark:border-white text-dark dark:text-white hover:text-white hover:bg-primary hover:border-primary hover:dark:border-primary sm:mr-4 lg:mr-3 xl:mr-4">
-        <svg width="10" height="18" viewBox="0 0 8 16" class="fill-current">
-            <path
-                d="M7.43902 6.4H6.19918H5.75639V5.88387V4.28387V3.76774H6.19918H7.12906C7.3726 3.76774 7.57186 3.56129 7.57186 3.25161V0.516129C7.57186 0.232258 7.39474 0 7.12906 0H5.51285C3.76379 0 2.54609 1.44516 2.54609 3.5871V5.83226V6.34839H2.10329H0.597778C0.287819 6.34839 0 6.63226 0 7.04516V8.90323C0 9.26452 0.243539 9.6 0.597778 9.6H2.05902H2.50181V10.1161V15.3032C2.50181 15.6645 2.74535 16 3.09959 16H5.18075C5.31359 16 5.42429 15.9226 5.51285 15.8194C5.60141 15.7161 5.66783 15.5355 5.66783 15.3806V10.1419V9.62581H6.13276H7.12906C7.41688 9.62581 7.63828 9.41935 7.68256 9.10968V9.08387V9.05806L7.99252 7.27742C8.01466 7.09677 7.99252 6.89032 7.85968 6.68387C7.8154 6.55484 7.61614 6.42581 7.43902 6.4Z" />
+    <a href="https://github.com/fanpero87/" target="_blank"
+        class="flex items-center justify-center w-10 h-10 mr-3 border-2 rounded-full border-dark text-dark hover:bg-primary hover:border-primary hover:dark:border-primary hover:text-white dark:border-white dark:text-white sm:mr-4 lg:mr-3 xl:mr-4">
+        <svg width="24px" height="24px" viewBox="0 0 24 24" class="fill-current">
+            <g>
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path fill-rule="nonzero"
+                    d="M5.883 18.653c-.3-.2-.558-.455-.86-.816a50.32 50.32 0 0 1-.466-.579c-.463-.575-.755-.84-1.057-.949a1 1 0 0 1 .676-1.883c.752.27 1.261.735 1.947 1.588-.094-.117.34.427.433.539.19.227.33.365.44.438.204.137.587.196 1.15.14.023-.382.094-.753.202-1.095C5.38 15.31 3.7 13.396 3.7 9.64c0-1.24.37-2.356 1.058-3.292-.218-.894-.185-1.975.302-3.192a1 1 0 0 1 .63-.582c.081-.024.127-.035.208-.047.803-.123 1.937.17 3.415 1.096A11.731 11.731 0 0 1 12 3.315c.912 0 1.818.104 2.684.308 1.477-.933 2.613-1.226 3.422-1.096.085.013.157.03.218.05a1 1 0 0 1 .616.58c.487 1.216.52 2.297.302 3.19.691.936 1.058 2.045 1.058 3.293 0 3.757-1.674 5.665-4.642 6.392.125.415.19.879.19 1.38a300.492 300.492 0 0 1-.012 2.716 1 1 0 0 1-.019 1.958c-1.139.228-1.983-.532-1.983-1.525l.002-.446.005-.705c.005-.708.007-1.338.007-1.998 0-.697-.183-1.152-.425-1.36-.661-.57-.326-1.655.54-1.752 2.967-.333 4.337-1.482 4.337-4.66 0-.955-.312-1.744-.913-2.404a1 1 0 0 1-.19-1.045c.166-.414.237-.957.096-1.614l-.01.003c-.491.139-1.11.44-1.858.949a1 1 0 0 1-.833.135A9.626 9.626 0 0 0 12 5.315c-.89 0-1.772.119-2.592.35a1 1 0 0 1-.83-.134c-.752-.507-1.374-.807-1.868-.947-.144.653-.073 1.194.092 1.607a1 1 0 0 1-.189 1.045C6.016 7.89 5.7 8.694 5.7 9.64c0 3.172 1.371 4.328 4.322 4.66.865.097 1.201 1.177.544 1.748-.192.168-.429.732-.429 1.364v3.15c0 .986-.835 1.725-1.96 1.528a1 1 0 0 1-.04-1.962v-.99c-.91.061-1.662-.088-2.254-.485z" />
+            </g>
         </svg>
     </a>
-    <a href="#" target="_blank"
-        class="flex items-center justify-center w-10 h-10 mr-3 border-2 rounded-full border-dark dark:border-white text-dark dark:text-white hover:text-white hover:bg-primary hover:border-primary hover:dark:border-primary sm:mr-4 lg:mr-3 xl:mr-4">
+    <a href="https://twitter.com/fanpero87" target="_blank"
+        class="flex items-center justify-center w-10 h-10 mr-3 border-2 rounded-full border-dark text-dark hover:bg-primary hover:border-primary hover:dark:border-primary hover:text-white dark:border-white dark:text-white sm:mr-4 lg:mr-3 xl:mr-4">
         <svg width="18" height="14" viewBox="0 0 16 12" class="fill-current">
             <path
                 d="M14.2194 2.06654L15.2 0.939335C15.4839 0.634051 15.5613 0.399217 15.5871 0.2818C14.8129 0.704501 14.0903 0.845401 13.6258 0.845401H13.4452L13.3419 0.751468C12.7226 0.258317 11.9484 0 11.1226 0C9.31613 0 7.89677 1.36204 7.89677 2.93542C7.89677 3.02935 7.89677 3.17025 7.92258 3.26419L8 3.73386L7.45806 3.71037C4.15484 3.61644 1.44516 1.03327 1.00645 0.587084C0.283871 1.76125 0.696774 2.88845 1.13548 3.59296L2.0129 4.90802L0.619355 4.20352C0.645161 5.18982 1.05806 5.96477 1.85806 6.52838L2.55484 6.99804L1.85806 7.25636C2.29677 8.45401 3.27742 8.94716 4 9.13503L4.95484 9.36986L4.05161 9.93346C2.60645 10.8728 0.8 10.8024 0 10.7319C1.62581 11.7652 3.56129 12 4.90323 12C5.90968 12 6.65806 11.9061 6.83871 11.8356C14.0645 10.2857 14.4 4.41487 14.4 3.2407V3.07632L14.5548 2.98239C15.4323 2.23092 15.7935 1.8317 16 1.59687C15.9226 1.62035 15.8194 1.66732 15.7161 1.6908L14.2194 2.06654Z" />
         </svg>
     </a>
-    <a href="#" target="_blank"
-        class="flex items-center justify-center w-10 h-10 mr-3 border-2 rounded-full border-dark dark:border-white text-dark dark:text-white hover:text-white hover:bg-primary hover:border-primary hover:dark:border-primary sm:mr-4 lg:mr-3 xl:mr-4">
+    <a href="https://youtube.com/fanpero87" target="_blank"
+        class="flex items-center justify-center w-10 h-10 mr-3 border-2 rounded-full border-dark text-dark hover:bg-primary hover:border-primary hover:dark:border-primary hover:text-white dark:border-white dark:text-white sm:mr-4 lg:mr-3 xl:mr-4">
         <svg width="18" height="16" viewBox="0 0 16 12" class="fill-current">
             <path
                 d="M15.6645 1.88018C15.4839 1.13364 14.9419 0.552995 14.2452 0.359447C13.0065 6.59222e-08 8 0 8 0C8 0 2.99355 6.59222e-08 1.75484 0.359447C1.05806 0.552995 0.516129 1.13364 0.335484 1.88018C0 3.23502 0 6 0 6C0 6 0 8.79263 0.335484 10.1198C0.516129 10.8664 1.05806 11.447 1.75484 11.6406C2.99355 12 8 12 8 12C8 12 13.0065 12 14.2452 11.6406C14.9419 11.447 15.4839 10.8664 15.6645 10.1198C16 8.79263 16 6 16 6C16 6 16 3.23502 15.6645 1.88018ZM6.4 8.57143V3.42857L10.5548 6L6.4 8.57143Z" />
         </svg>
     </a>
-    <a href="#" target="_blank"
-        class="flex items-center justify-center w-10 h-10 mr-3 border-2 rounded-full border-dark dark:border-white text-dark dark:text-white hover:text-white hover:bg-primary hover:border-primary hover:dark:border-primary sm:mr-4 lg:mr-3 xl:mr-4">
-        <svg viewBox="0 0 48 48" width="22px" height="22px" class="fill-current">
-            <path
-                d="M 16.5 5 C 10.16639 5 5 10.16639 5 16.5 L 5 31.5 C 5 37.832757 10.166209 43 16.5 43 L 31.5 43 C 37.832938 43 43 37.832938 43 31.5 L 43 16.5 C 43 10.166209 37.832757 5 31.5 5 L 16.5 5 z M 16.5 8 L 31.5 8 C 36.211243 8 40 11.787791 40 16.5 L 40 31.5 C 40 36.211062 36.211062 40 31.5 40 L 16.5 40 C 11.787791 40 8 36.211243 8 31.5 L 8 16.5 C 8 11.78761 11.78761 8 16.5 8 z M 34 12 C 32.895 12 32 12.895 32 14 C 32 15.105 32.895 16 34 16 C 35.105 16 36 15.105 36 14 C 36 12.895 35.105 12 34 12 z M 24 14 C 18.495178 14 14 18.495178 14 24 C 14 29.504822 18.495178 34 24 34 C 29.504822 34 34 29.504822 34 24 C 34 18.495178 29.504822 14 24 14 z M 24 17 C 27.883178 17 31 20.116822 31 24 C 31 27.883178 27.883178 31 24 31 C 20.116822 31 17 27.883178 17 24 C 17 20.116822 20.116822 17 24 17 z" />
+    <a href="https://www.linkedin.com/in/fabio-perez" target="_blank"
+        class="flex items-center justify-center w-10 h-10 mr-3 border-2 rounded-full border-dark text-dark hover:bg-primary hover:border-primary hover:dark:border-primary hover:text-white dark:border-white dark:text-white sm:mr-4 lg:mr-3 xl:mr-4">
+
+        <svg class="fill-current" width="18" height="16" viewBox="0 0 310 310" xml:space="preserve">
+            <g id="XMLID_801_">
+                <path id="XMLID_802_" d="M72.16,99.73H9.927c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5H72.16c2.762,0,5-2.238,5-5V104.73
+  C77.16,101.969,74.922,99.73,72.16,99.73z" />
+                <path id="XMLID_803_" d="M41.066,0.341C18.422,0.341,0,18.743,0,41.362C0,63.991,18.422,82.4,41.066,82.4
+  c22.626,0,41.033-18.41,41.033-41.038C82.1,18.743,63.692,0.341,41.066,0.341z" />
+                <path id="XMLID_804_" d="M230.454,94.761c-24.995,0-43.472,10.745-54.679,22.954V104.73c0-2.761-2.238-5-5-5h-59.599
+  c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5h62.097c2.762,0,5-2.238,5-5v-98.918c0-33.333,9.054-46.319,32.29-46.319
+  c25.306,0,27.317,20.818,27.317,48.034v97.204c0,2.762,2.238,5,5,5H305c2.762,0,5-2.238,5-5V194.995
+  C310,145.43,300.549,94.761,230.454,94.761z" />
+            </g>
         </svg>
     </a>
 </div>
