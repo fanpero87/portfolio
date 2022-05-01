@@ -1,16 +1,21 @@
 # Laravel 9 Portfolio App
 
 > **Initial Comment:**
+>
 > This is a simple Laravel Application that works as my first attempt of doing a Portfolio page for myself.
 
-This Laravel app was clone from this [Github Repo](https://github.com/thecodeholic/laravel9-tailwind-portfolio)
+## Getting Ready
 
-This project is using the following tools:
+1. This Laravel app was clone from this [Github Repo](https://github.com/thecodeholic/laravel9-tailwind-portfolio)
+
+2. This project is using the following tools:
 
 - [TailwindCSS](https://tailwindcss.com)
 - [AlpineJS](https://alpinejs.dev)
 - [TailGrids](https://tailgrids.com)
 - [Google Fonts](https://fonts.google.com/specimen/Roboto+Mono?query=Roboto+mono)
+
+## Running the App
 
 I used Laravel Sail to deploy the app. It was as easy as to run the following:
 
@@ -31,3 +36,42 @@ When you need to run commands to install packages or to use `php artisan` or `co
 ```bash
 ./vendor/bin/sail shell
 ```
+
+## Setting up the App
+
+You can now clone this repo like this:
+
+```bash
+git clone https://github-url-of-project
+```
+
+Create an `.env` file by running:
+
+```bash
+sudo cp .env.example .env
+```
+
+Edit your new `.env` file and make sure it contains the following lines:
+
+```env
+APP_NAME="AppName"
+APP_ENV=production
+APP_DEBUG=false
+APP_URL=<http://Server-IP/>
+```
+
+Install all dependencies by running:
+
+```bash
+composer install
+```
+
+Finally, generate the `APP_KEY` by running:
+
+```bash
+php artisan key:generate --ansi
+```
+
+## Hosting the App on the Web
+
+This app is hosted on [Heroku](https://heroku.com). You can follow this [link](https://postsrc.com/posts/how-to-deploy-your-laravel-website-to-heroku-for-free) to know how to do it.
