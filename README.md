@@ -75,3 +75,22 @@ php artisan key:generate --ansi
 ## Hosting the App on the Web
 
 This app is hosted on [Heroku](https://heroku.com). You can follow this [link](https://postsrc.com/posts/how-to-deploy-your-laravel-website-to-heroku-for-free) to know how to do it.
+
+Here is the URL for the site: `https://fabio-porfolio.herokuapp.com/`
+
+Basically, you need to create a file named `Procfile` on the root of the folder and add the following line:
+
+```file
+web: vendor/bin/heroku-php-nginx public/
+```
+
+You might have a `Mixed Content` issue with your UPP using HTTP pages and requesting HHTPS instead.
+To solve this, just add this to the `web.php` file:
+
+```file
+if (App::environment('production')) {
+    URL::forceScheme('https');
+}
+```
+
+Now, if you deploy the app again, you should be ok.
